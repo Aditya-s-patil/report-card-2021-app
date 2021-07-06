@@ -127,13 +127,13 @@ table {
     } 
 }
 .note{
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Times New Roman', Times, serif;
     color: red;
     font-size: 19px;
 }
 @media screen and (max-width:980px) {
     .note{
-        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-family:  'Times New Roman', Times, serif;
         color: red;
     }
 }
