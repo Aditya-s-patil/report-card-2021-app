@@ -81,7 +81,6 @@ const final= document.getElementById('totatk')
 const finalpercentage= document.getElementById('percentagetotal')
 
 next.onclick=()=>{
-    div0.style.display='none'
     div1.style.display="block"
     var kan = kan10.value*100*0.008
     var engn=Number(eng10.value)
@@ -143,7 +142,6 @@ next.onclick=()=>{
        totalt10.innerHTML=parseFloat(totalfirst).toFixed(0)
         }
         next2.onclick=()=>{
-            div1.style.display='none'
             div2.style.display="block"
             var kann=Number(kan11.value)
             var engg=Number(eng11.value)
