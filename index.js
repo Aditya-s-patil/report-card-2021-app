@@ -10,7 +10,8 @@ const done= document.getElementById('done')
 const table= document.getElementById('table')
 const div1= document.getElementById('div1')
 const div2= document.getElementById('div2')
-
+div1.style.display='none'
+div2.style.display='none'
 
 const kan11= document.getElementById('puck')
 const eng11= document.getElementById('puce')
