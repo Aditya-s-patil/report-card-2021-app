@@ -3,7 +3,7 @@
     <head> <link rel="stylesheet" href="index.css"></head>
     <body>
       <div id="div0">
-        <p class="p1"> Upload SSLC Marks</p>
+        <h2 class="p1"> Step 1 Enter SSLC Marks</h2>
         
         <form class="form">
            <div> kannada:<input type="number" class="input" id="sslck"></div>
@@ -12,10 +12,13 @@
            <div>Science:<input type="number" class="input" id="sslcs"></div>
            <div>Maths:<input type="number" class="input" id="sslcm"></div>
            <div>Social Science:<input type="number" class="input" id="sslcss"></div>
+           
         </form><br>
-        <button id="next">next</button></div>
+        <div><button class="button" id="next">Next Step </button></div>
+        </div>
+        <hr>
         <div id="div1" hidden>
-        <p> Upload PUC1 Marks</p>
+        <h2 class="p2"> Step 2 Enter PUC1 Marks</h2>
         <form class="form">
             <div>kannada:<input type="number" class="input" id="puck"></div>
            <div>English:<input type="number" class="input" id="puce"></div>
@@ -24,9 +27,11 @@
            <div>Maths:<input type="number" class="input" id="pucm"></div>
            <div>Biology:<input type="number" class="input" id="pucb"></div>
         </form>
-        <button id="next2">next</button></div>
+        <button class="button" id="next2">Next Step</button>
+        <hr></div>
+        
         <div id="div2" hidden>
-        <p> Upload PUC2 Internal Marks</p>
+        <h2 class="p2"> Upload PUC2 Internal Marks</h2>
         <form class="form">
           <div>kannada:<input type="number" class="input" min="0" max="10" id="pucck"></div>
           <div>English:<input type="number" class="input" min="0" max="10" id="pucce"></div>
@@ -35,8 +40,9 @@
           <div>Maths:<input type="number" class="input" min="0" max="10" id="puccm"></div>
           <div>Biology:<input type="number" class="input" min="0" max="10" id="puccb"></div>
         </form>
-        <button id="done">Show My Result</button>
-        </div>
+        <button class="button" id="done">Show My Result</button>
+       <hr> 
+      </div>
         <table id="table" hidden>
             <tr>
               <th>Subjects</th>
