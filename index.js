@@ -139,7 +139,7 @@ next.onclick=()=>{
        totalt10.innerHTML=parseFloat(totalfirst).toFixed(0)
         }
         next2.onclick=()=>{
-            div1.style.display='hidden'
+            div1.style.display='none'
             div2.style.display="block"
             var kann=Number(kan11.value)
             var engg=Number(eng11.value)
