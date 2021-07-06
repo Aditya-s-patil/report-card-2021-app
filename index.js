@@ -7,6 +7,7 @@ const sst10= document.getElementById('sslcss')
 const next= document.getElementById('next')
 const next2= document.getElementById('next2')
 const done= document.getElementById('done')
+const table= document.getElementById('table')
 
 const kan11= document.getElementById('puck')
 const eng11= document.getElementById('puce')
@@ -167,6 +168,7 @@ next.onclick=()=>{
             var totalsecond=percentagemain*4+(percentagelan*2)+sum11c
             total1012.innerHTML=parseFloat(totalsecond).toFixed(0)
             done.onclick=()=>{
+                table.style.display="block"
                 var kann12=Number(kan12.value)
                 var enggg12=Number(eng12.value)
                 var phhy12=Number(phy12.value)
