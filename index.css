@@ -4,8 +4,8 @@
 @media screen and (max-width:980px) {
     .form{
         margin-top: 100px; 
-        padding-left: 200;  
-        padding-right: 200px;
+        margin-left: 200;  
+        margin-right: 200px;
        }
     
 }
