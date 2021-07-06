@@ -8,6 +8,9 @@ const next= document.getElementById('next')
 const next2= document.getElementById('next2')
 const done= document.getElementById('done')
 const table= document.getElementById('table')
+const div1= document.getElementById('div1')
+const div2= document.getElementById('div2')
+
 
 const kan11= document.getElementById('puck')
 const eng11= document.getElementById('puce')
@@ -75,6 +78,7 @@ const final= document.getElementById('totatk')
 const finalpercentage= document.getElementById('percentagetotal')
 
 next.onclick=()=>{
+    div1.style.display="block"
     var kan = kan10.value*100*0.008
     var engn=Number(eng10.value)
     var oth=Number(oth10.value)
@@ -135,6 +139,7 @@ next.onclick=()=>{
        totalt10.innerHTML=parseFloat(totalfirst).toFixed(0)
         }
         next2.onclick=()=>{
+            div2.style.display="block"
             var kann=Number(kan11.value)
             var engg=Number(eng11.value)
             var phy=Number(phy11.value)
