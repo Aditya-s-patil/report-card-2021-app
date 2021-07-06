@@ -11,7 +11,7 @@ const table= document.getElementById('table')
 const div1= document.getElementById('div1')
 const div2= document.getElementById('div2')
 const div0= document.getElementById('div0')
-div0.style.display='block'
+
 div1.style.display='none'
 div2.style.display='none'
 
