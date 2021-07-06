@@ -1,17 +1,16 @@
 .form{
- margin-top: 100px; 
- padding-left: 600;  
- padding-right: 550px;
+ margin-top: 100px;   
 }
 @media screen and(max-width:980px) {
     .form{
         margin-top: 100px; 
-        padding-left: 400;  
-        padding-right: 400px;
+        padding-left: 200;  
+        padding-right: 200px;
        }
     
 }
 .input{
     margin-bottom: 25px;
     font-size: 20px;
+    width: 50px;
 }
