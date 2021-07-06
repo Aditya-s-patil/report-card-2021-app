@@ -10,6 +10,8 @@ const done= document.getElementById('done')
 const table= document.getElementById('table')
 const div1= document.getElementById('div1')
 const div2= document.getElementById('div2')
+const div0= document.getElementById('div0')
+div0.style.display='block'
 div1.style.display='none'
 div2.style.display='none'
 
@@ -79,6 +81,7 @@ const final= document.getElementById('totatk')
 const finalpercentage= document.getElementById('percentagetotal')
 
 next.onclick=()=>{
+    div0.style.display='none'
     div1.style.display="block"
     var kan = kan10.value*100*0.008
     var engn=Number(eng10.value)
