@@ -1,0 +1,123 @@
+<html>
+    <title>percentage calculator</title>
+    <head> <link rel="stylesheet" href="index.css"></head>
+    <body>
+        <p> Upload SSLC Marks</p>
+        <form class="form">
+            kannada:<input type="number" id="sslck"><br>
+            English:<input type="number" id="sslce"><br>
+            Other Language:<input type="number" id="sslco"><br>
+            Science:<input type="number" id="sslcs"><br>
+            Maths:<input type="number" id="sslcm"><br>
+            Social Science:<input type="number" id="sslcss"><br>
+        </form><br>
+        <button id="next">next</button>
+
+        <p> Upload PUC1 Marks</p>
+        <form class="form">
+            kannada:<input type="number" id="puck"><br>
+            English:<input type="number" id="puce"><br>
+            Physic:<input type="number" id="pucp"><br>
+            Chemistry:<input type="number" id="pucch"><br>
+            Maths:<input type="number" id="pucm"><br>
+            Biology:<input type="number" id="pucb"><br>
+        </form>
+        <button id="next2">next</button>
+        <p> Upload PUC2 Internal Marks</p>
+        <form class="form">
+            kannada:<input type="number" min="0" max="10" id="pucck"><br>
+            English:<input type="number" min="0" max="10" id="pucce"><br>
+            Physic:<input type="number" min="0" max="10" id="puccp"><br>
+            Chemistry:<input type="number" min="0" max="10" id="pucc"><br>
+            Maths:<input type="number" min="0" max="10" id="puccm"><br>
+            Biology:<input type="number" min="0" max="10" id="puccb"><br>
+        </form>
+        <button id="done">Show My Result</button>
+
+        <table>
+            <tr>
+              <th>Subjects</th>
+              <th>10Th Class<br>Max 45 Marks </th>
+              <th>11Th class<br> Max 45 Marks</th>
+              <th> 10Th + 12Th Marks </th>
+              <th>12Th class <br>Max 10 Marks </th>
+              <th>Grace Marks</th>
+              <th>Total Marks</th>
+            </tr>
+            <tr>
+              <td>Kannada</td>
+              <td id="markk10"></td>
+              <td id="markk11"></td>
+              <td id="sumk"></td>
+              <td id="markk12"></td>
+              <td id="markkg"></td>
+              <td id="totalk"></td>
+            </tr>
+            <tr>
+              <td>English</td>
+              <td id="marke10"></td>
+              <td id="marke11"></td>
+              <td id="sume"></td>
+              <td id="marke12"></td>
+              <td id="markeg"></td>
+              <td id="totale"></td>
+            </tr>
+            <tr>
+              <td>Physic</td>
+              <td id="markp10"></td>
+              <td id="markp11"></td>
+              <td id="sump"></td>
+              <td id="markp12"></td>
+              <td id="markpg"></td>
+              <td id="totalp"></td>
+            </tr>
+            <tr>
+              <td>Chemistry</td>
+              <td id="markc10"></td>
+              <td id="markc11"></td>
+              <td id="sumc"></td>
+              <td id="markc12"></td>
+              <td id="markcg"></td>
+              <td id="totalc"></td>
+            </tr>
+            <tr>
+              <td>Maths</td>
+              <td id="markm10"></td>
+              <td id="markm11"></td>
+              <td id="summ"></td>
+              <td id="markm12"></td>
+              <td id="markmg"></td>
+              <td id="totalm"></td>
+            </tr>
+            <tr>
+              <td>Biology</td>
+              <td id="markb10"></td>
+              <td id="markb11"></td>
+              <td id="sumb"></td>
+              <td id="markb12"></td>
+              <td id="markbg"></td>
+              <td id="totalb"></td>
+            </tr>
+            <tr>
+                <td>Total</td>
+                <td id="markt10"></td>
+                <td id="markt11"></td>
+                <td id="sumt"></td>
+                <td id="markt12"></td>
+                <td id="marktg"></td>
+                <td id="totatk"></td>
+            </tr>
+            <tr>
+                <td>Total Percentage</td>
+                <td ></td>
+                <td ></td>
+                <td ></td>
+                <td ></td>
+                <td ></td>
+                <td id="percentagetotal"></td>
+              </tr>
+          </table>
+          
+    <script src="index.js"></script>
+    </body>
+</html>
