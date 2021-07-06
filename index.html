@@ -4,7 +4,8 @@
     <body>
       <p class="p3">The result will be prepared based on SSLC marks, 1st PUC marks, and 2nd PUC assessment marks.<br>
          45% weightage each will be given to marks in SSLC and 1st PUC, whereas, 10% weightage will be given to 2nd PUC assessments<br>
-      </p><p class="formula"> Formula Used in this calculator is <br>SSLC(45%) + PUC1(45%) + PUC2(10%) + Grace Mark(5%)= 105%</p>
+      </p><p class="formula"> Formula Used in this calculator is <br>SSLC(45%) + PUC1(45%) + PUC2(10%) + Grace Mark(5%)= Total 105%</p>
+      <p class="note">Note:- Enter Markes As Given In Your Marks Sheet<br></p><hr>
       <div id="div0">
         <h2 class="p1"> Step 1 Enter SSLC Marks</h2>
         
@@ -17,7 +18,7 @@
            <div>Social Science:<input type="number" class="input" id="sslcss"></div>
            
         </form><br>
-        <div><button class="button" id="next">Next Step </button></div>
+        <div><a href="#next2"><button class="button" id="next">Next Step </button></a></div>
         </div>
         <hr>
         <div id="div1" hidden>
@@ -30,7 +31,7 @@
            <div>Maths:<input type="number" class="input" id="pucm"></div>
            <div>Biology:<input type="number" class="input" id="pucb"></div>
         </form>
-        <button class="button" id="next2">Next Step</button>
+        <a href="#done"><button class="button" id="next2">Next Step</button></a>
         <hr></div>
         
         <div id="div2" hidden>
@@ -43,7 +44,7 @@
           <div>Maths:<input type="number" class="input" min="0" max="10" id="puccm"></div>
           <div>Biology:<input type="number" class="input" min="0" max="10" id="puccb"></div>
         </form>
-        <button class="button" id="done">Show My Result</button>
+        <a href="#sump"><button class="button" id="done">Show My Result</button></a>
        <hr> 
       </div>
         <table id="table" hidden>
