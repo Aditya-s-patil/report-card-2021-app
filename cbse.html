@@ -1,0 +1,142 @@
+<html>
+    <title>CBSE Result calculator</title>
+    <head> 
+      <link rel="stylesheet" href="kpuc.css">
+      <link rel="simply" href="https://www.mpnrc.org/karnataka-2nd-puc-result/">
+    </head>
+
+    <body><h1 style="text-align: center;">CBSE 12<sup>TH</sup> Result calculator</h1>
+      <p class="p3">According to the policy decided by a 13-member panel set up by the board, the theory paper evaluation formula is: 30 percent weightage will be given to Class 10 marks, 30 percentage weightage to Class 11 marks and 40 percent weightage to Class 12 marks obtained in unit test/mid-term/pre-board exams.<br>
+      <a href="https://www.timesnownews.com/education/article/cbse-evaluation-criteria-for-class-12-sc-to-hear-plea-at-11-am-important-points/771792">Reference Link </a></p><p class="formula"> Formula Used To calculate Theory Marks <br>10<sup>Th</sup>(30%) + 11<sup>Th</sup>(30%) + 12<sup>TH</sup>(40%)= Total 100%</p>
+      <p class="formula"> Formula Used To calculate 12<sup>TH</sup>Subject Wise Marks<br>Marks Obtained In A Subject + Practical Marks= Total Marks In A Subject 
+      <p class="note">Note:- Enter Markes As Given In Your Marks Sheet<br></p><hr>
+      <div id="div0">
+        <h2 class="p1"> Step 1 Enter <var>10<sup>th</sup></var> <u><b><i>Theory Marks</i></b></u></h2>
+        
+        <form class="form">
+           <div> English Theory Marks:<input type="number" class="input" min="0" max="80" id="sslce"></div>
+           <div>Hindi Theory Marks:<input type="number" class="input" min="0" max="80" id="sslco"></div>
+           <div>Science Theory Marks:<input type="number" class="input" min="0" max="80" id="sslcs"></div>
+           <div>Maths Theory Marks:<input type="number" class="input" min="0" max="80" id="sslcm"></div>
+           <div>Social Science Theory Marks:<input type="number" class="input" min="0" max="80" id="sslcss"></div>
+           
+        </form><br>
+        <div><a href="#div1"><button class="button" id="next">Next Step </button></a></div>
+        </div>
+        <hr>
+        <div id="div1" hidden>
+        <h2 class="p2"> Step 2 Enter <var>11<sup>th</sup></var> <b><i>Theory Marks</i></b></h2>
+        <form class="form">
+           <div>English Theory Marks:<input type="number" class="input" min="0" max="80" id="puce"></div>
+           <div>Physic Theory Marks:<input type="number" class="input" min="0" max="70" id="pucp"></div>
+           <div>Chemistry Theory Marks:<input type="number" class="input" min="0" max="70" id="pucch"></div>
+           <div>Maths Theory Marks:<input type="number" class="input" min="0" max="80" id="pucm"></div>
+           <div>Elective Subject Theory Marks:<input type="number" min="0" max="70" class="input" id="pucb"></div>
+        </form>
+        <a href="#div2"><button class="button" id="next2">Next Step</button></a>
+        <hr></div>
+        
+        <div id="div2" hidden>
+          
+        <h2 class="p2"> Step 3 Enter <var>12<sup>th</sup></var> <b><i>Theory Marks</i></b></h2>
+        <p class="note">Note:- 12<sup>TH</sup> Marks Will Be Converted To 40%(Enter Marks Without Converting )</p>
+        <form class="form">
+          <div>English:<input type="number" class="input" min="0" max="80" id="pucce"></div>
+          <div>Physic:<input type="number" class="input" min="0" max="70" id="puccp"></div>
+          <div>Chemistry:<input type="number" class="input" min="0" max="70" id="pucc"></div>
+          <div>Maths:<input type="number" class="input" min="0" max="80" id="puccm"></div>
+          <div>Elective Subject Theory Marks:<input type="number" class="input" min="0" max="70" id="puccb"></div>
+        </form>
+        <a href="#table"><button class="button" id="done">Show My Result</button></a>
+       <hr> 
+      </div><div id="table" hidden>
+      <p class="note">Note:- We Assume You Will Get Full Marks In Practical</p>
+        <table>
+            <tr>
+              <th>Subjects</th>
+              <th>10<sup>TH</sup> <br>Max 24 Marks </th>
+              <th>11<sup>TH</sup><br> Max 24 Marks</th>
+              <th> 10<sup>TH</sup> + 11<sup>TH</sup> Marks </th>
+              <th>12<sup>TH</sup> <br>Max 32 Marks </th>
+              <th>12<sup>TH</sup> Practical Max 20 Marks </th>
+              <th>Total Marks</th>
+            </tr>
+            <tr>
+              <td>English</td>
+              <td id="marke10"></td>
+              <td id="marke11"></td>
+              <td id="sume"></td>
+              <td id="marke12"></td>
+              <td id="markeg"></td>
+              <td id="totale"></td>
+            </tr>
+            <tr>
+              <td>Maths</td>
+              <td id="markm10"></td>
+              <td id="markm11"></td>
+              <td id="summ"></td>
+              <td id="markm12"></td>
+              <td id="markmg"></td>
+              <td id="totalm"></td>
+            </tr>
+            <tr>
+              <th>Subjects</th>
+              <th>Max 21 Marks </th>
+              <th>Max 21 Marks</th>
+              <th> 10<sup>TH</sup> + 11<sup>TH</sup> Marks </th>
+              <th>12<sup>TH</sup> <br>Max 28 Marks </th>
+              <th>12<sup>TH</sup> Practical Max 30 Marks</th>
+              <th>Total Marks</th>
+            </tr>
+            <tr>
+              <td>Physic</td>
+              <td id="markp10"></td>
+              <td id="markp11"></td>
+              <td id="sump"></td>
+              <td id="markp12"></td>
+              <td id="markpg"></td>
+              <td id="totalp"></td>
+            </tr>
+            <tr>
+              <td>Chemistry</td>
+              <td id="markc10"></td>
+              <td id="markc11"></td>
+              <td id="sumc"></td>
+              <td id="markc12"></td>
+              <td id="markcg"></td>
+              <td id="totalc"></td>
+            </tr>
+            <tr>
+              <td>Elective</td>
+              <td id="markb10"></td>
+              <td id="markb11"></td>
+              <td id="sumb"></td>
+              <td id="markb12"></td>
+              <td id="markbg"></td>
+              <td id="totalb"></td>
+            </tr>
+            <tr>
+                <td>Total Marks</td>
+                <td id="markt10"></td>
+                <td id="markt11"></td>
+                <td id="sumt"></td>
+                <td id="markt12"></td>
+                <td id="marktg"></td>
+                <td id="totatk"></td>
+            </tr>
+            <tr>
+                <td>Total Percentage</td>
+                <td ></td>
+                <td ></td>
+                <td ></td>
+                <td ></td>
+                <td ></td>
+                <td id="percentagetotal"></td>
+              </tr>
+          </table>
+         </div>
+
+         <center><iframe width="560" height="315" src="https://www.youtube.com/embed/qRR9deLQCL8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen ></iframe></center>
+         <script src="cbse.js"></script>
+    </body>
+</html>

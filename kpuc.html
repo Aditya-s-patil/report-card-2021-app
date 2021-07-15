@@ -1,0 +1,143 @@
+<html>
+    <title>PUC Result calculator</title>
+    <head> 
+      <link rel="stylesheet" href="kpuc.css">
+      <link rel="simply" href="https://www.mpnrc.org/karnataka-2nd-puc-result/">
+    </head>
+
+    <body><h1 style="text-align: center;">Karnatana State Board 2nd PUC Result calculator </h1>
+      <p class="p3">The result will be prepared based on SSLC marks, 1st PUC marks, and 2nd PUC assessment marks.<br>
+         45% weightage each will be given to marks in SSLC and 1st PUC, whereas, 10% weightage will be given to 2nd PUC assessments<br>
+      </p><p class="formula"> Formula Used in this calculator is <br>SSLC(45%) + PUC1(45%) + PUC2(10%) + Grace Mark(5%)= Total 105%</p>
+      <a href="https://www.timesnownews.com/education/article/karnataka-2nd-puc-result-2021-repeaters-to-be-promoted-without-exams-government-to-hc/780678">Reference link</a>
+      <p class="note">Note:- Enter Markes As Given In Your Marks Sheet<br></p><hr>
+      
+      <div id="div0">
+        <h2 class="p1"> Step 1 Enter SSLC Marks</h2>
+        
+        <form class="form">
+           <div> kannada:<input type="number" class="input" id="sslck"></div>
+           <div> English:<input type="number" class="input" id="sslce"></div>
+           <div>Other Language:<input type="number" class="input" id="sslco"></div>
+           <div>Science:<input type="number" class="input" id="sslcs"></div>
+           <div>Maths:<input type="number" class="input" id="sslcm"></div>
+           <div>Social Science:<input type="number" class="input" id="sslcss"></div>
+           
+        </form><br>
+        <div><a href="#div1"><button class="button" id="next">Next Step </button></a></div>
+        </div>
+        <hr>
+        <div id="div1" hidden>
+        <h2 class="p2"> Step 2 Enter PUC1 Marks</h2>
+        <form class="form">
+            <div>kannada:<input type="number" class="input" id="puck"></div>
+           <div>English:<input type="number" class="input" id="puce"></div>
+           <div>Physic:<input type="number" class="input" id="pucp"></div>
+           <div>Chemistry:<input type="number" class="input" id="pucch"></div>
+           <div>Maths:<input type="number" class="input" id="pucm"></div>
+           <div>Biology:<input type="number" class="input" id="pucb"></div>
+        </form>
+        <a href="#div2"><button class="button" id="next2">Next Step</button></a>
+        <hr></div>
+        
+        <div id="div2" hidden>
+          <p class="note">Note:- PUC 2 Marks Should Be In Range zero(0) to Ten(10)</p>
+        <h2 class="p2"> Step 3 Enter PUC2 Internal Marks</h2>
+        <form class="form">
+          <div>kannada:<input type="number" class="input" min="0" max="10" id="pucck"></div>
+          <div>English:<input type="number" class="input" min="0" max="10" id="pucce"></div>
+          <div>Physic:<input type="number" class="input" min="0" max="10" id="puccp"></div>
+          <div>Chemistry:<input type="number" class="input" min="0" max="10" id="pucc"></div>
+          <div>Maths:<input type="number" class="input" min="0" max="10" id="puccm"></div>
+          <div>Biology:<input type="number" class="input" min="0" max="10" id="puccb"></div>
+        </form>
+        <a href="#table"><button class="button" id="done">Show My Result</button></a>
+       <hr> 
+      </div>
+        <table id="table" hidden>
+            <tr>
+              <th>Subjects</th>
+              <th> SSLC<br>Max 45 Marks </th>
+              <th> 1st PUC<br> Max 45 Marks</th>
+              <th> SSLC + 1st PUC </th>
+              <th>2nd PUC <br>Max 10 Marks </th>
+              <th>Grace Marks</th>
+              <th>Total Marks</th>
+            </tr>
+            <tr>
+              <td>Kannada</td>
+              <td id="markk10"></td>
+              <td id="markk11"></td>
+              <td id="sumk"></td>
+              <td id="markk12"></td>
+              <td id="markkg"></td>
+              <td id="totalk"></td>
+            </tr>
+            <tr>
+              <td>English</td>
+              <td id="marke10"></td>
+              <td id="marke11"></td>
+              <td id="sume"></td>
+              <td id="marke12"></td>
+              <td id="markeg"></td>
+              <td id="totale"></td>
+            </tr>
+            <tr>
+              <td>Physic</td>
+              <td id="markp10"></td>
+              <td id="markp11"></td>
+              <td id="sump"></td>
+              <td id="markp12"></td>
+              <td id="markpg"></td>
+              <td id="totalp"></td>
+            </tr>
+            <tr>
+              <td>Chemistry</td>
+              <td id="markc10"></td>
+              <td id="markc11"></td>
+              <td id="sumc"></td>
+              <td id="markc12"></td>
+              <td id="markcg"></td>
+              <td id="totalc"></td>
+            </tr>
+            <tr>
+              <td>Maths</td>
+              <td id="markm10"></td>
+              <td id="markm11"></td>
+              <td id="summ"></td>
+              <td id="markm12"></td>
+              <td id="markmg"></td>
+              <td id="totalm"></td>
+            </tr>
+            <tr>
+              <td>Biology</td>
+              <td id="markb10"></td>
+              <td id="markb11"></td>
+              <td id="sumb"></td>
+              <td id="markb12"></td>
+              <td id="markbg"></td>
+              <td id="totalb"></td>
+            </tr>
+            <tr>
+                <td>Total</td>
+                <td id="markt10"></td>
+                <td id="markt11"></td>
+                <td id="sumt"></td>
+                <td id="markt12"></td>
+                <td id="marktg"></td>
+                <td id="totatk"></td>
+            </tr>
+            <tr>
+                <td>Total Percentage</td>
+                <td ></td>
+                <td ></td>
+                <td ></td>
+                <td ></td>
+                <td ></td>
+                <td id="percentagetotal"></td>
+              </tr>
+          </table>
+        <center><iframe width="560" height="315" src="https://www.youtube.com/embed/Di2CVmmoXt0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center> 
+         <script src="kpuc.js"></script>
+    </body>
+</html>
