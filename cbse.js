@@ -181,7 +181,7 @@ var avg= sum*0.334
             final.innerHTML=parseFloat(tota6).toFixed(0)
 
 
-         var final2= (tota6*100)*0.002
+         var final2= (tota6/600)*100
          finalpercentage.innerHTML=parseFloat(final2).toFixed(0)+"%"
          
          }
